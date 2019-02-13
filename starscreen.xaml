@@ -1,0 +1,16 @@
+﻿<Window x:Class="Instent_Volume_Control.starscreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Instent_Volume_Control"
+        mc:Ignorable="d"
+        Title="starscreen" Height="200" Width="350" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="Black" Opacity="0.5"/>
+        </Grid.Background>
+        <TextBlock  Text="Instent " Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Mistral" FontSize="100" TextDecorations="{x:Null}" Margin="57,-11,44.4,-11" />
+
+    </Grid>
+</Window>
